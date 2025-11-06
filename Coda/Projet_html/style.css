@@ -12,38 +12,110 @@ body {
 
 /* Section 1 */
 .toto1 {
-  background-image: url(img/leaves-7634894_1280.jpg);
-  background-size: 100%;
-  height: 700px;
+  background-image: url(https://cdn.pixabay.com/photo/2014/12/08/02/59/benches-560435_1280.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  padding: 300px 100px;
 }
 
 .toto1 h2 {
   margin-top: 0;
-  font-size: 2em;
-  font-weight: 700;
+  font-size: 4em;
+  width: 30%;
   padding-top: 100px;
   padding-left: 100px;
-  padding-bottom: 50px;
+  padding-bottom: 20px;
 }
 
 .toto1 article {
   color: white;
   box-sizing: border-box;
-  width: 300px;
+  line-height: 2;
+  width: 30%;
   padding-left: 100px;
   padding-bottom: 50px;
 }
 
-.div1 {
+.toto1 a {
   font-weight: 600;
   color: #555;
   background: #fff;
-  padding: 1em;
-  border-radius: 8px;
-  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
-  margin-bottom: 100px;
-  width: 130px;
-  padding-left: 20px;
-  box-sizing: border-box;
-  margin-left: 120px;
+  padding: 30px 50px;
+  border-radius: 50px;
+  display: inline-block;
+  box-shadow: 5px 5px 0px rgba(0, 0, 0, 0.4);
+  margin-left: 100px;
+  text-decoration: none;
+}
+
+/* Section 2 */
+
+.section2 {
+  position: relative;
+  background-image: url(https://cdn.pixabay.com/photo/2015/05/21/08/20/leaf-776747_1280.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: 100px 0 400px;
+}
+.section2 article {
+  width: 80%;
+  margin-top: 100px;
+  margin: auto;
+  text-align: center;
+  background-image: url(https://cdn.pixabay.com/photo/2021/05/01/13/10/leaf-6220977_1280.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  border: 2px solid black;
+  border-radius: 50px;
+}
+
+.section2 div {
+  display: inline-block;
+  width: 20%;
+  padding: 2em;
+  margin: 2em;
+  color: white;
+  font-size: 12px;
+  line-height: 1.1;
+}
+
+.section2 div h3 {
+  padding: 2em;
+}
+
+.section2 img {
+  width: 60px;
+}
+
+/* Section 3 */
+
+#tata3 {
+  position: relative;
+  background-image: url(https://cdn.pixabay.com/photo/2017/06/26/15/06/autumn-2444046_1280.jpg);
+  background-size: cover;
+  padding: 100px 0 400px;
+}
+
+.section3 {
+  width: 80%;
+  margin: 0 auto;
+  position: relative;
+  top: -300px;
+}
+
+.section3 div {
+  display: inline-block;
+  width: 29%;
+  margin-top: 100px;
+  text-align: center;
+  padding: 70px;
+  margin: 2%;
+  border: solid black 3px;
+  border-radius: 50px;
+  background-color: beige;
+}
+
+.section3 .div_l1 {
+  margin-top: -200px;
 }
